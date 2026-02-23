@@ -98,8 +98,7 @@ http://localhost:3000
 
 ---
 
-## 📷 Screenshots
-(Add application screenshots here if available)
+
 
 ---
 
