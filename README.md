@@ -1,73 +1,114 @@
-# Welcome to your Lovable project
+# ✅ Pyro Todo Application
+Full Stack Todo Application developed as part of the **Pyro Holdings Pvt Ltd Internship Screening Task**.
 
-## Project info
+This project implements a complete Todo Management System using **Spring Boot (Backend)** and **React (Frontend)** following proper REST API conventions and clean architecture.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 📌 Project Overview
+The application allows users to manage daily tasks efficiently by creating, updating, completing, and deleting todos through a responsive web interface connected to a RESTful backend.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- REST APIs
+- H2 Database / PostgreSQL
+- Maven
 
-Changes made via Lovable will be committed automatically to this repo.
+### Frontend
+- ReactJS
+- Functional Components & Hooks
+- Axios (API communication)
+- HTML5, CSS3, JavaScript
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Features Implemented
+- ✅ Create Todo
+- ✅ View All Todos
+- ✅ Update Todo
+- ✅ Delete Todo
+- ✅ Mark Todo as Complete / Incomplete
+- ✅ RESTful API Design
+- ✅ Input Validation
+- ✅ Clean Project Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ How to Run the Project
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🔹 Backend (Spring Boot)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1. Navigate to backend folder
+2. cd backend
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+2. Run application
 
-**Use GitHub Codespaces**
+mvn spring-boot:run
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+Backend runs at:
 
-This project is built with:
+http://localhost:8080
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### 🔹 Frontend (React)
 
-## Can I connect a custom domain to my Lovable project?
+1. Navigate to frontend folder
 
-Yes, you can!
+cd frontend
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+2. Install dependencies
+
+npm install
+
+
+3. Start application
+
+npm start
+
+
+Frontend runs at:
+
+http://localhost:3000
+
+
+---
+
+## 🔗 API Endpoints
+
+| Method | Endpoint | Description |
+|-------|---------|-------------|
+| POST | /todos | Create Todo |
+| GET | /todos | Get All Todos |
+| PUT | /todos/{id} | Update Todo |
+| DELETE | /todos/{id} | Delete Todo |
+
+---
+
+## 📷 Screenshots
+(Add application screenshots here if available)
+
+---
+
+## 👨‍💻 Developed By
+**Shaik Mahammad Iliyaz**  
+B.Tech – Computer Science & Engineering (2022–2026)
+
+---
+
+## 📄 Notes
+This project was developed as part of a technical screening task demonstrating full-stack development skills, REST API design, and frontend-backend integration
+
